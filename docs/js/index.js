@@ -28,7 +28,7 @@ window.onload = function(){
 };
 
 function generatePoints(){
-    var i = 1000;
+    var i = 500;
     for(i; i > -1; --i){
         var point3D = {x:(1 - Math.random() * 2) * 600, y:(1 - Math.random() * 2) * 600, z:(1 - Math.random() * 2) * 600, vx:0, vy:0, vz:0};
         points.push(point3D);
